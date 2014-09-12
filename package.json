@@ -5,7 +5,7 @@
   "homepage": "http://github.com/biojs/biojs2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/biojs/biojs2"
+    "url": "https://github.com/4ndr01d3/biojs-rest-jsdas"
   },
   "author": "Gustavo A. Salazar <gustavoadolfo.salazar@gmail.com>",
   "dependencies": {
