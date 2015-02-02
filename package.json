@@ -2,7 +2,7 @@
   "name": "biojs-rest-jsdas",
   "description": "Component to query DAS sources",
   "version": "0.0.4",
-  "homepage": "http://github.com/biojs/biojs2",
+  "homepage": "https://github.com/4ndr01d3/biojs-rest-jsdas",
   "repository": {
     "type": "git",
     "url": "https://github.com/4ndr01d3/biojs-rest-jsdas"
@@ -23,16 +23,16 @@
     "mocha": "^1.21.4"
   },
   "keywords": [
-    "bio, das, annotations"
+    "bio", "das", "annotations", "biojs", "jsdas"
   ],
-  "main": "index.js",
+  "main": "src/jsdas.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
-    "build-browser": "browserify browser.js  > biojs-io-jsdas.min.js"
+    "build-browser": "browserify -r ./:biojs-rest-jsdas > biojs-rest-jsdas.min.js"
   },
   "license": "Apache 2",
   "bugs": {
-    "url": "https://github.com/biojs/biojs2/issues"
+    "url": "https://github.com/4ndr01d3/biojs-rest-jsdas/issues"
   },
   "directories": {
     "test": "test"
